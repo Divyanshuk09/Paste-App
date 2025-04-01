@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 4px; /* Thin scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); /* Light white scrollbar */
+    border-radius: 10px; /* Rounded edges */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8); /* Slightly brighter on hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; /* No background */
+  }
+  
