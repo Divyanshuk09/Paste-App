@@ -22,7 +22,7 @@ const ViewPaste = ({ viewPaste, setViewPaste, handleCopy }) => {
         {/* VS Code Style Title Bar */}
         <div  className="flex justify-between px-4 py-2 bg-[#333] w-full border-b border-gray-600">
           <div className="flex gap-2">
-            <button onclick={()=> setViewPaste(null)} className="w-3 h-3 bg-red-500 hover:bg-red-200 cursor-pointer rounded-full"></button>
+            <button onClick={()=> setViewPaste(null)} className="w-3 h-3 bg-red-500 hover:bg-red-200 cursor-pointer rounded-full"></button>
             <button className="w-3 h-3 bg-yellow-500 rounded-full"></button>
             <button className="w-3 h-3 bg-green-500  rounded-full"></button>
           </div>

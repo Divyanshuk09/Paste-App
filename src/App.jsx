@@ -5,7 +5,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Home from "./components/Home";
 import Pastes from "./components/Pastes";
-import ViewPaste from "./components/ViewPaste";
+import ViewPasteById from "./components/ViewPasteById";
 import Navbar from "./components/Navbar";
 
 const router = createBrowserRouter([
@@ -28,11 +28,11 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/pastes/:id",
+    path: "/pastes/:pasteId",
     element: (
       <div>
         <Navbar/>
-        <ViewPaste/>
+        <ViewPasteById/>
       </div>
     ),
   },

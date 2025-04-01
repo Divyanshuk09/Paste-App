@@ -6,7 +6,7 @@ import { MdOutlineContentCopy } from "react-icons/md";
 import toast from "react-hot-toast";
 
 const Home = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate()
   const dispatch = useDispatch();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
