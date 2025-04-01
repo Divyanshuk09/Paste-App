@@ -25,7 +25,7 @@ const Pastes = () => {
   function handleShare(paste) {
     console.log("handleshare clicked");
     navigator.clipboard.writeText(
-      `${window.location.origin}/paste/${paste._id}`
+      `${window.location.origin}/pastes/${paste._id}`
     );
     toast.success("Shareable link copied!");
   }
