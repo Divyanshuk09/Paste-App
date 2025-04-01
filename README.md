@@ -1,6 +1,6 @@
 # Paste-App
 
-Paste-App is a web application designed to allow users to easily share text snippets, such as code or notes, in a simple and efficient way. This app provides a user-friendly interface for creating, viewing, and managing pastes.
+Paste-App is a web application designed to allow users to easily share text snippets, such as code or notes, in a simple and efficient way. This app provides a user-friendly interface for creating, viewing, and managing pastes, with all data stored locally in the browser.
 
 ## Features
 
@@ -8,16 +8,13 @@ Paste-App is a web application designed to allow users to easily share text snip
 - **View Pastes**: View pastes in a clean and readable format.
 - **Manage Pastes**: Edit or delete your pastes as needed.
 - **Shareable Links**: Generate shareable links for each paste.
-- **User Authentication**: Secure user authentication to manage your pastes.
-- **Search Functionality**: Search through pastes using keywords.
+- **Local Storage**: All pastes are stored locally in your browser.
 
 ## Technologies Used
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Tokens)
+- **Frontend**: HTML, CSS, JavaScript
 - **Styling**: CSS, Bootstrap
+- **Storage**: Local Storage
 
 ## Installation
 
@@ -29,30 +26,15 @@ To run this application locally, follow these steps:
     cd Paste-App
     ```
 
-2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-3. **Set up environment variables**:
-    Create a `.env` file in the root directory and add the following environment variables:
-    ```plaintext
-    MONGO_URI=<your-mongodb-uri>
-    JWT_SECRET=<your-jwt-secret>
-    ```
-
-4. **Start the application**:
-    ```bash
-    npm start
-    ```
+2. **Open the application**:
+    Open `index.html` in your web browser to start using the application.
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Register or log in to your account.
-3. Create a new paste by clicking on the "New Paste" button.
-4. Fill in the details and save your paste.
-5. Share the generated link with others to view your paste.
+1. Open your browser and navigate to the location of `index.html`.
+2. Create a new paste by clicking on the "New Paste" button.
+3. Fill in the details and save your paste.
+4. Share the generated link with others to view your paste.
 
 ## Contributing
 
