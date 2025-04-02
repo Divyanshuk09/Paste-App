@@ -4,18 +4,10 @@ import { useParams } from "react-router-dom";
 import { MdOutlineContentCopy } from "react-icons/md";
 import toast from "react-hot-toast";
 
-
 const ViewPasteById = () => {
-    const { pasteId } = useParams(); // This is an object with 'id'
-  console.log("pasteId:", pasteId);
-
+  const { pasteId } = useParams(); // This is an object with 'id'
   const allpastes = useSelector((state) => state.paste.pastes);
-  console.log("allpastes:", allpastes);
-
   const paste = allpastes.find((p) => p._id === pasteId);
-
-  console.log("paste:", paste);
-
   if (!paste) {
     return <p className="text-white">Paste not found!</p>;
   }
